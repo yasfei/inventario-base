@@ -1,0 +1,22 @@
+D:\Documentos\Projetos\Drive\C#\Inventario Base\obj\Debug\netcoreapp3.1\Inventario Base.csprojAssemblyReference.cache
+D:\Documentos\Projetos\Drive\C#\Inventario Base\obj\Debug\netcoreapp3.1\InventarioVisao.frmCadastrarEstoque.resources
+D:\Documentos\Projetos\Drive\C#\Inventario Base\obj\Debug\netcoreapp3.1\InventarioVisao.frmCadastrarMov.resources
+D:\Documentos\Projetos\Drive\C#\Inventario Base\obj\Debug\netcoreapp3.1\InventarioVisao.frmCadastrarMovEstoques.resources
+D:\Documentos\Projetos\Drive\C#\Inventario Base\obj\Debug\netcoreapp3.1\InventarioVisao.frmCadastrarProduto.resources
+D:\Documentos\Projetos\Drive\C#\Inventario Base\obj\Debug\netcoreapp3.1\InventarioVisao.frmConsultarEstoque.resources
+D:\Documentos\Projetos\Drive\C#\Inventario Base\obj\Debug\netcoreapp3.1\InventarioVisao.frmConsultarMov.resources
+D:\Documentos\Projetos\Drive\C#\Inventario Base\obj\Debug\netcoreapp3.1\InventarioVisao.frmConsultarProduto.resources
+D:\Documentos\Projetos\Drive\C#\Inventario Base\obj\Debug\netcoreapp3.1\InventarioVisao.frmHome.resources
+D:\Documentos\Projetos\Drive\C#\Inventario Base\obj\Debug\netcoreapp3.1\InventarioVisao.frmInfoArquivo.resources
+D:\Documentos\Projetos\Drive\C#\Inventario Base\obj\Debug\netcoreapp3.1\InventarioVisao.frmListarProduto.resources
+D:\Documentos\Projetos\Drive\C#\Inventario Base\obj\Debug\netcoreapp3.1\InventarioVisao.frmLogin.resources
+D:\Documentos\Projetos\Drive\C#\Inventario Base\obj\Debug\netcoreapp3.1\InventarioVisao.frmPrincipal.resources
+D:\Documentos\Projetos\Drive\C#\Inventario Base\obj\Debug\netcoreapp3.1\InventarioVisao.frmRelatorioMovComp.resources
+D:\Documentos\Projetos\Drive\C#\Inventario Base\obj\Debug\netcoreapp3.1\InventarioVisao.frmRelatorioPreview.resources
+D:\Documentos\Projetos\Drive\C#\Inventario Base\obj\Debug\netcoreapp3.1\InventarioVisao.frmRelatorios.resources
+D:\Documentos\Projetos\Drive\C#\Inventario Base\obj\Debug\netcoreapp3.1\InventarioVisao.frmVisualizarAlterarEstoque.resources
+D:\Documentos\Projetos\Drive\C#\Inventario Base\obj\Debug\netcoreapp3.1\InventarioVisao.frmVisualizarAlterarMov.resources
+D:\Documentos\Projetos\Drive\C#\Inventario Base\obj\Debug\netcoreapp3.1\InventarioVisao.frmVisualizarAlterarProduto.resources
+D:\Documentos\Projetos\Drive\C#\Inventario Base\obj\Debug\netcoreapp3.1\InventarioVisao.frmVisualizarProdutos.resources
+D:\Documentos\Projetos\Drive\C#\Inventario Base\obj\Debug\netcoreapp3.1\Inventario_Base.AppAulaVisao.Properties.Resources.resources
+D:\Documentos\Projetos\Drive\C#\Inventario Base\obj\Debug\netcoreapp3.1\Inventario Base.csproj.GenerateResource.cache

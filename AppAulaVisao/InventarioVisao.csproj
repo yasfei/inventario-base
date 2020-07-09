@@ -1,0 +1,272 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{0584B14D-98B0-4F15-8051-F1414DB2E581}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>InventarioVisao</RootNamespace>
+    <AssemblyName>InventarioVisao</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>
+    </StartupObject>
+  </PropertyGroup>
+  <PropertyGroup>
+    <NoWin32Manifest>true</NoWin32Manifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="frmCadastrarEstoque.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCadastrarEstoque.Designer.cs">
+      <DependentUpon>frmCadastrarEstoque.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmCadastrarMov.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCadastrarMov.Designer.cs">
+      <DependentUpon>frmCadastrarMov.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmCadastrarMovEstoques.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCadastrarMovEstoques.Designer.cs">
+      <DependentUpon>frmCadastrarMovEstoques.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmConsultarEstoque.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmConsultarEstoque.Designer.cs">
+      <DependentUpon>frmConsultarEstoque.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmConsultarMov.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmConsultarMov.Designer.cs">
+      <DependentUpon>frmConsultarMov.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmConsultarProduto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmConsultarProduto.Designer.cs">
+      <DependentUpon>frmConsultarProduto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmCadastrarProduto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCadastrarProduto.Designer.cs">
+      <DependentUpon>frmCadastrarProduto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmHome.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmHome.Designer.cs">
+      <DependentUpon>frmHome.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmInfoArquivo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmInfoArquivo.Designer.cs">
+      <DependentUpon>frmInfoArquivo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmListarProduto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmListarProduto.Designer.cs">
+      <DependentUpon>frmListarProduto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmPrincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPrincipal.Designer.cs">
+      <DependentUpon>frmPrincipal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLogin.Designer.cs">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmRelatorioMovComp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmRelatorioMovComp.Designer.cs">
+      <DependentUpon>frmRelatorioMovComp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmRelatorioPreview.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmRelatorioPreview.Designer.cs">
+      <DependentUpon>frmRelatorioPreview.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmRelatorios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmRelatorios.Designer.cs">
+      <DependentUpon>frmRelatorios.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmVisualizarAlterarEstoque.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmVisualizarAlterarEstoque.Designer.cs">
+      <DependentUpon>frmVisualizarAlterarEstoque.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmVisualizarAlterarMov.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmVisualizarAlterarMov.Designer.cs">
+      <DependentUpon>frmVisualizarAlterarMov.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmVisualizarAlterarProduto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmVisualizarAlterarProduto.Designer.cs">
+      <DependentUpon>frmVisualizarAlterarProduto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmVisualizarProdutos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmVisualizarProdutos.Designer.cs">
+      <DependentUpon>frmVisualizarProdutos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frmCadastrarEstoque.resx">
+      <DependentUpon>frmCadastrarEstoque.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCadastrarMov.resx">
+      <DependentUpon>frmCadastrarMov.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCadastrarMovEstoques.resx">
+      <DependentUpon>frmCadastrarMovEstoques.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmConsultarEstoque.resx">
+      <DependentUpon>frmConsultarEstoque.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmConsultarMov.resx">
+      <DependentUpon>frmConsultarMov.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmConsultarProduto.resx">
+      <DependentUpon>frmConsultarProduto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCadastrarProduto.resx">
+      <DependentUpon>frmCadastrarProduto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmInfoArquivo.resx">
+      <DependentUpon>frmInfoArquivo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmListarProduto.resx">
+      <DependentUpon>frmListarProduto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLogin.resx">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmHome.resx">
+      <DependentUpon>frmHome.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPrincipal.resx">
+      <DependentUpon>frmPrincipal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmRelatorioMovComp.resx">
+      <DependentUpon>frmRelatorioMovComp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmRelatorioPreview.resx">
+      <DependentUpon>frmRelatorioPreview.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmRelatorios.resx">
+      <DependentUpon>frmRelatorios.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmVisualizarAlterarEstoque.resx">
+      <DependentUpon>frmVisualizarAlterarEstoque.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmVisualizarAlterarMov.resx">
+      <DependentUpon>frmVisualizarAlterarMov.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmVisualizarAlterarProduto.resx">
+      <DependentUpon>frmVisualizarAlterarProduto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmVisualizarProdutos.resx">
+      <DependentUpon>frmVisualizarProdutos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\AppAulaControle\InventarioControle.csproj">
+      <Project>{cd8cbf39-5c37-46f2-ac19-5e1e0237bf16}</Project>
+      <Name>AppAulaControle</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Negocio\Negocio.csproj">
+      <Project>{85fd3f4b-1a0b-46ee-8382-25153a7c8fc9}</Project>
+      <Name>Negocio</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

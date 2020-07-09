@@ -1,0 +1,6 @@
+C:\Users\yasmin.feitosa\Documents\Visual Studio 2015\Projects\Inventario Base\Negocio\bin\Release\Negocio.dll
+C:\Users\yasmin.feitosa\Documents\Visual Studio 2015\Projects\Inventario Base\Negocio\bin\Release\Negocio.pdb
+C:\Users\yasmin.feitosa\Documents\Visual Studio 2015\Projects\Inventario Base\Negocio\bin\Release\LINQtoCSV.dll
+C:\Users\yasmin.feitosa\Documents\Visual Studio 2015\Projects\Inventario Base\Negocio\obj\Release\Negocio.csprojResolveAssemblyReference.cache
+C:\Users\yasmin.feitosa\Documents\Visual Studio 2015\Projects\Inventario Base\Negocio\obj\Release\Negocio.dll
+C:\Users\yasmin.feitosa\Documents\Visual Studio 2015\Projects\Inventario Base\Negocio\obj\Release\Negocio.pdb
